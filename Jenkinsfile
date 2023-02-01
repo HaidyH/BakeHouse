@@ -4,9 +4,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo 'build'
+                echo 'build Haidy edit :D '
                 sh "ls"
-                sh "docker ps"
             }
         }
         stage('test') {
